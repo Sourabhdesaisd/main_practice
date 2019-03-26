@@ -1,0 +1,14 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(05Mar2023:00:37:58):( irun -access +rwc alu_1.v )
+s2::(05Mar2023:00:41:10):( irun -access +rwc alu_1.v )
+s3::(05Mar2023:00:52:06):( irun -access +rwc alu_1.v )
+s4::(05Mar2023:02:46:30):( irun -access +rwc logical_operation.v )
+s5::(05Mar2023:02:48:27):( irun -access +rwc logical_operation.v )
+s6::(05Mar2023:07:22:29):( irun -access +rwc shift_operation.v )
+s7::(05Mar2023:07:29:27):( irun -access +rwc shift_operation.v )
+s8::(05Mar2023:07:31:38):( irun -access +rwc shift_operation.v )
+s9::(05Mar2023:20:10:31):( irun -access +rwc comparator_operation.v )
+s10::(05Mar2023:20:40:43):( irun -access +rwc alu_top.v )

@@ -1,0 +1,27 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(06Mar2023:08:51:54):( irun -access +rwc branc_1.v )
+s2::(06Mar2023:20:50:42):( irun -access +rwc branc_1.v )
+s3::(06Mar2023:21:02:44):( irun -access +rwc branc_1.v )
+s4::(06Mar2023:21:03:08):( irun -access +rwc branc_1.v )
+s5::(06Mar2023:22:06:28):( irun -access +rwc branc_1.v )
+s6::(06Mar2023:22:14:14):( irun -access +rwc branc_1.v )
+s7::(06Mar2023:22:28:47):( irun -access +rwc branc_1.v )
+s8::(06Mar2023:22:32:50):( irun -access +rwc branc_1.v )
+s9::(06Mar2023:23:19:34):( irun -access +rwc jump_1.v )
+s10::(07Mar2023:01:04:06):( irun -access +rwc jump_1.v )
+s11::(07Mar2023:20:03:12):( irun -access +rwc sequential_1.v )
+s12::(07Mar2023:20:38:36):( irun -access +rwc pc_reg.v )
+s13::(07Mar2023:20:42:17):( irun -access +rwc branc_1.v jump_1.v sequential_1.v pc_reg.v pc_topmodule.v )
+s14::(07Mar2023:20:43:22):( irun -access +rwc branc_1.v jump_1.v sequential_1.v pc_reg.v pc_topmodule.v )
+s15::(07Mar2023:20:46:00):( irun -access +rwc branc_1.v jump_1.v sequential_1.v pc_reg.v pc_topmodule.v )
+s16::(07Mar2023:20:52:58):( irun -access +rwc branc_1.v jump_1.v sequential_1.v pc_reg.v pc_topmodule.v )
+s17::(07Mar2023:21:25:45):( irun -access +rwc branc_1.v jump_1.v sequential_1.v pc_reg.v pc_topmodule.v )
+s18::(07Mar2023:21:26:07):( irun -access +rwc branc_1.v jump_1.v sequential_1.v pc_reg.v pc_topmodule.v )
+s19::(07Mar2023:22:29:10):( irun -access +rwc instr_mem.hex instruction_memory.v )
+s20::(07Mar2023:22:29:17):( irun -access +rwc instr_mem.hex instruction_memory.v )
+s21::(07Mar2023:22:30:01):( irun -access +rwc instr_mem.hex instruction_memory.v )
+s22::(07Mar2023:22:31:40):( irun -access +rwc instr_mem.hex instruction_memory.v )
+s23::(07Mar2023:22:34:22):( irun -access +rwc instruction_memory.v )

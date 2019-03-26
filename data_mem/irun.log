@@ -1,0 +1,41 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Mar 04, 2023 at 00:10:14 IST
+irun
+	-access +rwc
+	integrate_memory_module.v
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		tb_memory_unit_top
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              5       5
+		Registers:           11      11
+		Scalar wires:         3       -
+		Vectored wires:      13       -
+		Always blocks:        4       4
+		Initial blocks:       3       3
+		Cont. assignments:    5       6
+		Pseudo assignments:   7       7
+	Writing initial simulation snapshot: worklib.tb_memory_unit_top:v
+Loading snapshot worklib.tb_memory_unit_top:v .................... Done
+ncsim> source /tools/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+
+========== MEMORY UNIT TOP TEST ==========
+LW  @0x00 => deadbeef (Expected DEADBEEF)
+LH  @0x04 => ffffbeef (Expected 0000BEEF)
+LHU @0x04 => 0000beef (Expected 0000BEEF)
+LB  @0x08 => ffffffaa (Expected FFFFFFAA)
+LBU @0x08 => 000000aa (Expected 000000AA)
+LW  @0x00 => deadbeef (Expected DEADBEEF)
+========== TEST COMPLETE ==========
+
+Simulation complete via $finish(1) at time 190 NS + 0
+./integrate_memory_module.v:194         $finish;
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Mar 04, 2023 at 00:10:15 IST  (total: 00:00:01)

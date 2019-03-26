@@ -1,0 +1,32 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Mar 07, 2023 at 22:34:22 IST
+irun
+	-access +rwc
+	instruction_memory.v
+file: instruction_memory.v
+	module worklib.instruction_memory:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		instruction_memory
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.instruction_memory:v <0x7d4735c4>
+			streams:   2, words:   684
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		            Instances  Unique
+		Modules:            1       1
+		Registers:          1       1
+		Vectored wires:     2       -
+		Initial blocks:     1       1
+		Cont. assignments:  1       1
+	Writing initial simulation snapshot: worklib.instruction_memory:v
+Loading snapshot worklib.instruction_memory:v .................... Done
+ncsim> source /tools/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Mar 07, 2023 at 22:34:23 IST  (total: 00:00:01)
